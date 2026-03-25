@@ -8,7 +8,7 @@ const generateProducts = (slug) => {
   const commonProducts = [
     { id: 11, name: 'Sudadera Premium', category: 'Temporada • Algodón', price: '$95', image: 'https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&q=80' },
     { id: 12, name: 'Minimal Sneakers', category: 'Calzado', price: '$250', image: 'https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&q=80' },
-    { id: 13, name: 'Bufanda Cashmere', category: 'Accesorios • Invierno', price: '$120', image: 'https://images.unsplash.com/photo-1608620864350-426b3c959dcd?auto=format&fit=crop&q=80' },
+    { id: 13, name: 'Bufanda Cashmere', category: 'Accesorios • Invierno', price: '$120', image: 'https://images.unsplash.com/photo-1520903920243-00d872a2d1c9?auto=format&fit=crop&q=80' },
     { id: 14, name: 'Gorra Estructurada', category: 'Accesorios', price: '$45', image: 'https://images.unsplash.com/photo-1521369909029-2afed882ba54?auto=format&fit=crop&q=80' },
   ];
 

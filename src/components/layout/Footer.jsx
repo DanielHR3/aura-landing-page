@@ -35,9 +35,9 @@ export function Footer() {
         <div>
           <h4 className="text-white text-sm font-medium tracking-wider uppercase mb-5">Social</h4>
           <div className="flex flex-col space-y-3 text-sm">
-            <a href="#" className="hover:text-white transition-colors">Instagram</a>
-            <a href="#" className="hover:text-white transition-colors">Twitter</a>
-            <a href="#" className="hover:text-white transition-colors">Facebook</a>
+            <a href="#" aria-label="Visítanos en Instagram" className="hover:text-white transition-colors">Instagram</a>
+            <a href="#" aria-label="Visítanos en Twitter" className="hover:text-white transition-colors">Twitter</a>
+            <a href="#" aria-label="Visítanos en Facebook" className="hover:text-white transition-colors">Facebook</a>
           </div>
         </div>
       </div>

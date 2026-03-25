@@ -23,6 +23,7 @@ export function Newsletter() {
           <input 
             type="email" 
             placeholder="Tu correo electrónico" 
+            aria-label="Tu correo electrónico para el newsletter"
             required
             className="flex-1 h-11 px-4 border border-zinc-200 bg-zinc-50 rounded-none focus:outline-none focus:ring-1 focus:ring-zinc-950 focus:border-zinc-950 transition-colors placeholder:text-zinc-400"
           />

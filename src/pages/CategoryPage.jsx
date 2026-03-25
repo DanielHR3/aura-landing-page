@@ -17,13 +17,13 @@ const generateProducts = (slug) => {
       { id: 1, name: 'Chaqueta Estructurada', category: 'Hombre • Exterior', price: '$420', image: 'https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&fit=crop&q=80' },
       { id: 2, name: 'Suéter Hilo Fino', category: 'Hombre • Punto', price: '$189', image: 'https://images.unsplash.com/photo-1620799140188-3b2a02fd9a77?auto=format&fit=crop&q=80' },
       { id: 3, name: 'Camisa Oxford', category: 'Hombre • Camisas', price: '$130', image: 'https://images.unsplash.com/photo-1603252109303-2751441dd157?auto=format&fit=crop&q=80' },
-      { id: 4, name: 'Pantalón Chino', category: 'Hombre • Pantalones', price: '$150', image: 'https://images.unsplash.com/photo-1548883354-94bcfe321cfa?auto=format&fit=crop&q=80' }
+      { id: 4, name: 'Pantalón Chino', category: 'Hombre • Pantalones', price: '$150', image: 'https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&q=80' }
     ],
     mujer: [
       { id: 5, name: 'Abrigo Minimalista Lana', category: 'Mujer • Exterior', price: '$345', image: 'https://images.unsplash.com/photo-1544022613-e87ca75a784a?auto=format&fit=crop&q=80' },
       { id: 6, name: 'Pantalón Sastre Recto', category: 'Mujer • Pantalones', price: '$210', image: 'https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&q=80' },
       { id: 7, name: 'Vestido Seda Cruda', category: 'Mujer • Vestidos', price: '$290', image: 'https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&q=80' },
-      { id: 8, name: 'Top Minimalista', category: 'Mujer • Tops', price: '$110', image: 'https://images.unsplash.com/photo-1434389678232-004652c6f1cd?auto=format&fit=crop&q=80' }
+      { id: 8, name: 'Top Minimalista', category: 'Mujer • Tops', price: '$110', image: 'https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&q=80' }
     ],
     accesorios: [
       { id: 9, name: 'Bolso Cuero Estructurado', category: 'Accesorios • Bolsos', price: '$490', image: 'https://images.unsplash.com/photo-1584916201218-f4242ceb4809?auto=format&fit=crop&q=80' },

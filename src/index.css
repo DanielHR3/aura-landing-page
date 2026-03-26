@@ -1,12 +1,16 @@
 @import "tailwindcss";
 
 @theme {
-  --color-accent: #171717; /* Very dark gray for Aura minimalist luxury */
+  --color-accent: #171717;
   --font-sans: 'Inter', system-ui, sans-serif;
   --font-heading: 'Outfit', system-ui, sans-serif;
 }
 
 @layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     @apply bg-zinc-50 text-zinc-900 antialiased;
     font-family: var(--font-sans);
@@ -14,5 +18,30 @@
 
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-heading);
+  }
+
+  img {
+    image-rendering: auto;
+    -webkit-user-drag: none;
+  }
+
+  ::selection {
+    background-color: #09090b;
+    color: #fafafa;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #fafafa;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #d4d4d8;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #a1a1aa;
   }
 }
